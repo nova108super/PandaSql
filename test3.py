@@ -4,11 +4,11 @@ import psycopg2
 
 # Данные для подключения
 DB_CONFIG = {
-    'host1': 'localhost',
-    'port1': '8080',
+    'host': 'localhost',
+    'port': '5432',
     'database': 'your_database',
-    'user': 'your_username',
-    'password1': 'your_password'
+    'username': 'your_username',
+    'password2': 'your_password'
 }
 
 def load_data_to_postgres():
